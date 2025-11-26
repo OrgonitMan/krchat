@@ -1,0 +1,13 @@
+.Login{
+    align-self: start;
+    justify-self: center;
+    justify-items: center;
+    gap: 8px;
+}
+
+.Login .logo{
+    font-size: 256px;
+    line-height: 1.1;
+    color: #2ae;
+    text-shadow: 2px 5px 15px black;
+}

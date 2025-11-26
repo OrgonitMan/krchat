@@ -1,0 +1,20 @@
+.LeftPane{
+    grid-template-rows: auto auto 1fr;
+    border-right: 1px solid gray;
+
+    &>p{
+        padding-inline: 8px;
+        font-weight: bold;
+        text-align: end;
+    }
+
+    .conversations{
+        overflow-y: auto;
+        align-content: start;
+        grid-template-rows: auto;
+    }
+
+    @media(max-width: 650px){
+        border-right: none;
+    }
+}

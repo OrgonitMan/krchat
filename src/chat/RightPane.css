@@ -1,0 +1,29 @@
+.RightPane {
+    grid-template-rows: auto 1fr auto;
+
+    .conversation-header {
+        padding-inline: 8px;
+    }
+
+    .messages {
+        overflow-y: auto;
+        padding: 8px;
+        justify-items: start;
+        align-content: start;
+        gap: 8px;
+        grid-template-rows: auto;
+    }
+
+    .conversation-header {
+        grid-template-columns: 1fr auto;
+        align-items: center;
+
+        .IconButton {
+            @media(min-width: 650px) {
+                display: none;
+            }
+        }
+    }
+
+
+}

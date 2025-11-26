@@ -1,0 +1,20 @@
+.ConversationCard{
+    cursor: pointer;
+    padding: 8px;
+
+    &.selected{
+        background: #17b;
+    }
+
+    div{
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 4px;
+
+        h3{
+            font-weight: 500;
+            font-size: 1rem;
+            margin: 0;
+        }
+    }
+}

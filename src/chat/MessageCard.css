@@ -1,0 +1,22 @@
+.MessageCard {
+    .bubble {
+        background: #335;
+        padding: 6px 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px black;
+        grid-template-columns: auto auto;
+        gap: 8px;
+    }
+
+    &.own {
+        justify-self: end;
+
+        .bubble {
+            background: #533;
+        }
+    }
+
+    .time {
+        color: #aaa;
+    }
+}
